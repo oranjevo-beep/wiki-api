@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Wikipedia API</title>
+  </head>
+  <body>
+    <div class="section-center">
+      <div class="wiki-container">
+        <img class="wiki-logo" src="./wiki-logo.png" alt="" />
+        <h1>Wikipedia API</h1>
+        <form class="search-form" action="index.html" method="post">
+          <input
+            type="text"
+            class="form-input"
+            placeholder="search"
+            name="search"
+            id="search"
+          />
+          <button type="submit" class="submit-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </form>
+        <div class="content"></div>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
